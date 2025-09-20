@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<title>Corso di Italiano - Layout</title>
-<link rel="stylesheet" href="style_lezioni.css">
-<style>
-.container { display: flex; max-width: 1200px; margin: auto; }
-.sidebar { width: 25%; padding: 20px; background-color: #f0f0f0; }
-.content { width: 75%; padding: 20px; }
-.sidebar ul { list-style: none; padding-left: 0; }
-.sidebar li { margin: 10px 0; }
-.sidebar a { text-decoration: none; color: #2d6a4f; font-weight: bold; }
-.sidebar a:hover { text-decoration: underline; }
-</style>
+  <meta charset="UTF-8">
+  <title>Corso di Italiano - Home</title>
+  <link rel="stylesheet" href="style_lezioni.css">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; background-color: #ffffff; color: #333333; }
+    .container { display: flex; max-width: 1200px; margin: auto; margin-top: 40px; border: 1px solid #ddd; border-radius: 12px; overflow: hidden; }
+    .sidebar { width: 25%; padding: 20px; background-color: #f0f0f0; }
+    .content { width: 75%; padding: 20px; background-color: #ffffff; }
+    .sidebar ul { list-style: none; padding-left: 0; }
+    .sidebar li { margin: 10px 0; }
+    .sidebar a { text-decoration: none; color: #2d6a4f; font-weight: bold; }
+    .sidebar a:hover { text-decoration: underline; }
+    .page-title { text-align: center; font-size: 2.5rem; font-weight: 700; color: #2d6a4f; margin-bottom: 20px; }
+  </style>
 </head>
 <body>
-<div class="container">
-<!-- Colonna sinistra: elenco delle pagine -->
-<div class="sidebar">
-<h2>Pagine del Corso</h2>
-<ul>
-<li><a href="Corso_Intro.html" target="contentFrame">Introduzione al Corso</a></li>
-<li><a href="Lezione1.html" target="contentFrame">Lezione 1 - Fondamenti di Italiano: Saluti e Pronuncia</a></li>
-<li><a href="Lezione2.html" target="contentFrame">Lezione 2 - Numeri, Giorni e Mesi: Fondamenti di Conversazione</a></li>
-</ul>
-</div>
+  <h1 class="page-title">📚 Corso di Italiano per Principianti</h1>
+  <div class="container">
+    <!-- Colonna sinistra: elenco delle pagine -->
+    <div class="sidebar">
+      <h2>Pagine del Corso</h2>
+      <ul>
+        <li><a href="Corso_Intro.html" target="contentFrame">Introduzione al Corso</a></li>
+        <li><a href="Lezione1.html" target="contentFrame">Lezione 1 - Fondamenti di Italiano: Saluti e Pronuncia</a></li>
+        <li><a href="Lezione2.html" target="contentFrame">Lezione 2 - Numeri, Giorni e Mesi: Fondamenti di Conversazione</a></li>
+      </ul>
+    </div>
 
-
-<!-- Colonna destra: contenuto della pagina selezionata -->
-<div class="content">
-<iframe name="contentFrame" src="Corso_Intro.html" style="width:100%; height:90vh; border:none;"></iframe>
-</div>
-</div>
+    <!-- Colonna destra: contenuto della pagina selezionata -->
+    <div class="content">
+      <iframe name="contentFrame" src="Corso_Intro.html" style="width:100%; height:90vh; border:none;"></iframe>
+    </div>
+  </div>
 </body>
 </html>
