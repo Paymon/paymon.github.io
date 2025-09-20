@@ -1,0 +1,73 @@
+/* Font principale */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: #1f2937; /* text-gray-800 */
+  padding: 1.5rem;
+}
+
+/* Titolo principale */
+h1 {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700;
+  color: #16a34a; /* green-700 */
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Titoli di sezione */
+h2 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Testo in inglese */
+.english {
+  font-size: 0.75rem; /* text-xs */
+  font-style: italic;
+  color: #4b5563; /* text-gray-600 */
+}
+
+/* Box evidenziazione/esercizi */
+.box {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 1rem; /* rounded-xl */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow */
+  margin-top: 1rem;
+}
+
+/* Liste */
+ul, ol {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.list-disc {
+  list-style-type: disc;
+}
+.list-decimal {
+  list-style-type: decimal;
+}
+.list-inside {
+  list-style-position: inside;
+}
+
+/* Sfondi colorati sezioni */
+.bg-intro { background-color: #f9fafb; } /* gray-50 */
+.bg-vowels { background-color: #dcfce7; } /* green-50 */
+.bg-greetings { background-color: #dbeafe; } /* blue-50 */
+.bg-intro-self { background-color: #fef3c7; } /* yellow-50 */
+.bg-homework { background-color: #ede9fe; } /* purple-50 */
+.bg-tip { background-color: #fce7f3; } /* pink-50 */
+
+/* Paragrafi */
+p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Testo evidenziato */
+strong {
+  font-weight: 700;
+}
